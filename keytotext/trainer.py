@@ -324,7 +324,7 @@ class trainer:
             callbacks=early_stop_callback,
             max_epochs=max_epochs,
             gpus=gpus,
-            progress_bar_refresh_rate=5,
+            #progress_bar_refresh_rate=5,
             tpu_cores=tpu_cores
         )
 
